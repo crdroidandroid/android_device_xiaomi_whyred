@@ -1477,10 +1477,10 @@ vendor/etc/thermal-engine-map.conf|34a9c4c05bb7584f8656772bb26e21b9dd15379b
 vendor/etc/thermal-engine-normal.conf|1ce9d3ed8ae0ed6884272da2ded66ebfead98dea
 vendor/etc/thermal-engine-pubgmhd.conf|e09edc6a5a7c7dc4c00468c4285e391e4091f669
 
-# Time services - from LA.UM.7.2.r1-06900-sdm660.0
--vendor/app/TimeService/TimeService.apk|693a68e35a2cbc40d23b291fcc836c8567f90b14
-vendor/bin/time_daemon|ac244644735005d4c4322168001dcd3ae757007f
-vendor/lib64/libtime_genoff.so|9de68b1aa139b06b0e455bd1c24ed0c527492c3b
+# Time services
+-vendor/app/TimeService/TimeService.apk
+vendor/bin/time_daemon
+vendor/lib64/libtime_genoff.so
 
 # Wifi
 vendor/bin/cnss-daemon
