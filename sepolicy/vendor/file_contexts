@@ -76,3 +76,5 @@
 /(vendor|system/vendor)/lib(64)?/vendor\.display\.config@1\.8\.so                                                                               u:object_r:same_process_hal_file:s0
 /(vendor|system/vendor)/lib(64)?/vendor\.display\.config@1\.9\.so                                                                               u:object_r:same_process_hal_file:s0
 
+# FPS Info
+/sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0

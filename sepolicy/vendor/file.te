@@ -23,3 +23,6 @@ type debugfs_rpm, debugfs_type, fs_type;
 
 #define blkio device
 type blkio_device, dev_type;
+
+# FPS Info
+type sysfs_fps, sysfs_type, fs_type;
