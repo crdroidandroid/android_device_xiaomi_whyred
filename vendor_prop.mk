@@ -233,10 +233,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.use_minfree_levels=true \
     ro.lmk.log_stats=true
 
-# Zygote preforking
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.device_config.runtime_native.usap_pool_enabled=true
-
 #Listen
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.soundtrigger=nuance \
